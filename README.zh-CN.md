@@ -134,6 +134,16 @@ python3 skills/px4-flightdeck/scripts/inspect_workspace.py \
 影响车辆的操作须在用户授权的实际目标上执行。仿真证据仅支持已测工况。
 这是独立社区项目，与 PX4/Dronecode 无官方从属关系。
 
+## 关于作者
+
+**Jinliang Wan**
+
+UNSW 航空航天工程 | Monash 人工智能硕士
+
+热衷于无人机、PX4 二次开发，以及 AI agent 的实际应用。
+
+欢迎交流与合作：[wanjl031218@gmail.com](mailto:wanjl031218@gmail.com)。
+
 ## 参与改进
 
 建议带一个可复现问题：任务、相关版本、脱敏后的输入或日志、实际回答、预期行为
