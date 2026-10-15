@@ -149,6 +149,16 @@ Vehicle-affecting operations require the user's authorization for the actual tar
 Simulation evidence supports only its tested conditions. This is an independent community
 project, not an official PX4 or Dronecode product.
 
+## About the author
+
+**Jinliang Wan**
+
+Aerospace Engineering @ UNSW | Master's in AI @ Monash
+
+I'm passionate about drones, PX4 development, and practical applications of AI agents.
+
+Interested in collaborating? Reach me at [wanjl031218@gmail.com](mailto:wanjl031218@gmail.com).
+
 ## Contribute
 
 Bring a reproducible case: task, relevant versions, sanitized input/log excerpt, actual
