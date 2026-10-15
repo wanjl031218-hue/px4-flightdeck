@@ -2,7 +2,7 @@
 
 **让 AI 陪你学懂、构建并调试 PX4，用证据确认每一步。**
 
-[English](README.md) · [技能入口](skills/px4-flightdeck/SKILL.md) · [技术指南](skills/px4-flightdeck/references/sources.md) · [验证记录](evals/results.md) · [许可说明](THIRD_PARTY_NOTICES.md)
+[English](README.en.md) · [技能入口](skills/px4-flightdeck/SKILL.md) · [技术指南](skills/px4-flightdeck/references/sources.md) · [验证记录](evals/results.md) · [许可说明](THIRD_PARTY_NOTICES.md)
 
 仓库默认分支为 `codex/en`，首次进入显示英文首页。需要中文首页时，可在 GitHub
 分支选择器切换到 `codex/zh-CN`。两个分支均包含双语 skill 与同一套工具；详见
