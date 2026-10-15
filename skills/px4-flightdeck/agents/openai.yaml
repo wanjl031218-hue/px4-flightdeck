@@ -1,0 +1,4 @@
+interface:
+  display_name: "PX4 FlightDeck"
+  short_description: "Learn, build, debug, and evaluate PX4 projects with evidence"
+  default_prompt: "Use $px4-flightdeck to help me learn, build, or debug this PX4 project. Match my language and preferred explanation style, and verify claims against my version and evidence."

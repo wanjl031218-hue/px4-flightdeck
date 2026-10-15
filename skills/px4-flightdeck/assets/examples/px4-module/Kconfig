@@ -1,0 +1,5 @@
+menuconfig EXAMPLES_FLIGHTDECK_OBSERVER
+    bool "flightdeck_observer"
+    default n
+    ---help---
+        Read-only local position observer for learning WorkQueue lifecycle.

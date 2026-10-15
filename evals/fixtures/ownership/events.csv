@@ -1,0 +1,6 @@
+run_id,time_s,nav_mode,landed,armed,external_position_hz,feedback_age_s,event
+synthetic-01,20.0,OFFBOARD,false,true,20,0.01,approaching B
+synthetic-01,21.0,AUTO_LAND,false,true,20,0.01,land mode observed
+synthetic-01,23.0,POSITION,false,true,20,0.01,Pilot took over using sticks
+synthetic-01,24.0,POSITION,false,true,20,0.01,mission still requests Offboard
+synthetic-01,40.0,AUTO_LAND,true,false,0,8.0,last snapshot only; no later fresh feedback supplied

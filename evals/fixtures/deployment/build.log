@@ -1,0 +1,5 @@
+Synthetic diagnostic excerpt, not an actual build result.
+Warning: source.cpp has modification time 17230 s in the future
+ninja: no work to do.
+Clock skew detected. Your build may be incomplete.
+Summary: 1 package finished

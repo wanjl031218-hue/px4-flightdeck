@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>flightdeck_ros_observer</name>
+  <version>0.2.0</version>
+  <description>Read-only PX4 local-position observer for learning DDS delivery.</description>
+  <maintainer email="maintainers@example.invalid">PX4 FlightDeck contributors</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>px4_msgs</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

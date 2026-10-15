@@ -1,0 +1,6 @@
+Synthetic evidence, captured for the same attempted run.
+Source build marker: mission build=r8
+Installed executable marker: mission build=r5
+Startup output: mission build=r5
+Execution environment: an Ubuntu VM, not accessible from the reviewing agent.
+PX4 firmware version: not supplied
