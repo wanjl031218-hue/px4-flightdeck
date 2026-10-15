@@ -13,7 +13,8 @@ the branch chooses the homepage language, not the model's capabilities.
 Develop changes on the English branch. When syncing the Chinese branch, bring across
 the same source changes, copy the English homepage to `README.en.md`, then render
 the Chinese homepage from `README.zh-CN.md` with its English link pointing to
-`README.en.md`. Keep the language-only delta limited to those two homepage files.
+`README.en.md`. Keep the language-only delta limited to the homepage files and the
+English navigation link in `README.zh-CN.md`.
 Create release tags on `codex/en` so published source ZIPs open in English.
 
 中文：默认英文首页，中文有独立分支入口。修复与工具以英文分支为准，中文分支同步相同
