@@ -7,7 +7,7 @@ description: >-
   diagnosing PX4 failures, or evaluating flight logs and bounded parameter experiments.
   Ground answers in the user's checkout and runtime evidence; teach in Chinese or English.
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
 # PX4 FlightDeck
@@ -69,6 +69,9 @@ For technical detail, load the matching guide rather than all guides:
   connects names to consuming code, active paths and competing explanations.
 - **ULog/CSV and metric computation:** [Logs and metrics](references/logs-metrics.md)
   defines a runnable optional scorer; preserve the project's existing metric contract.
+- **Classical control and data-driven analysis:** [Control and data-driven sources](references/control-and-data-driven-sources.md)
+  connects PX4 source tracing with time/frequency-domain hypotheses, SVD/DMD/Koopman,
+  SINDy/SINDYc, and held-out validation. Use it for offline, bounded experiments.
 
 The technical guides pin a reference revision, not a universal compatibility claim.
 Adapt against the user's actual checkout. Example runbooks state verification status;

@@ -52,6 +52,7 @@ required merely to load the skill. Actual builds and simulations need their own 
 | ROS 2 / DDS / Offboard / frames / clocks | [Interface guide](skills/px4-flightdeck/references/ros2-offboard.md) and [read-only subscriber](skills/px4-flightdeck/assets/examples/ros2-observer/README.md) |
 | Parameter definitions → consuming controller | [Controller guide](skills/px4-flightdeck/references/controllers-parameters.md) |
 | Log alignment, RMSE, overshoot, settling | [Metric definitions and runnable scorer](skills/px4-flightdeck/references/logs-metrics.md) |
+| Classical control + data-driven analysis | [Control and data-driven sources](skills/px4-flightdeck/references/control-and-data-driven-sources.md) |
 
 Technical source anchors use PX4 **v1.17.0** at a pinned commit, with a recorded
 `px4_msgs` snapshot and source hashes. This is a reference for adaptation, not a
@@ -135,7 +136,8 @@ installed node. It does not build, launch, connect to a vehicle, or upload anyth
 
 ## Scope and validation
 
-Version `0.2.0` adds source-backed technical guides, examples and reproducible packaging.
+Version `0.3.0` adds a source-backed control and data-driven analysis guide, alongside
+the existing technical guides, examples and reproducible packaging.
 The workflows were motivated
 by learning/development records involving PX4, ROS 2, and Gazebo. They intentionally
 avoid treating one user's release, vehicle, command rate, or tuning policy as universal.

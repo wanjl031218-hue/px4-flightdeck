@@ -143,7 +143,7 @@ class PackageTests(unittest.TestCase):
             if ".git" in file.parts:
                 continue
             for target in re.findall(r"\]\(([^\s)]+)\)", file.read_text()):
-                if "://" in target or target.startswith("#"):
+                if "://" in target or target.startswith(("#", "mailto:", "tel:")):
                     continue
                 relative = target.split("#", 1)[0]
                 self.assertTrue((file.parent / relative).exists(), str(file) + ": " + target)
