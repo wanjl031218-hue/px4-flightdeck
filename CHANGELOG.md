@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — 2026-10-16
+
+- Add a bilingual, source-grounded control and data-driven analysis guide.
+- Connect PX4 source tracing with classical time/frequency-domain hypotheses and
+  bounded SVD/POD, DMD/Koopman, SINDy/SINDYc experiments.
+- Add author-maintained/public references for PX4, Brian Douglas, and Steven Brunton;
+  record validation boundaries, licenses, and held-out experiment requirements.
+
 ## 0.2.0 — 2026-10-15
 
 - Add five focused technical guides: architecture, module builds/WorkQueue,

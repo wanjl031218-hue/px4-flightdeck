@@ -45,6 +45,7 @@ PX4 环境；实际编译和仿真仍需要对应运行环境。安装过程不�
 | ROS 2 / DDS / Offboard / 坐标与时钟 | [接口指南](skills/px4-flightdeck/references/ros2-offboard.md)与[只读订阅包](skills/px4-flightdeck/assets/examples/ros2-observer/README.md) |
 | 参数定义与控制器使用位置 | [控制链与参数追踪](skills/px4-flightdeck/references/controllers-parameters.md) |
 | 日志对齐、RMSE、超调和调节时间 | [指标定义与可运行脚本](skills/px4-flightdeck/references/logs-metrics.md) |
+| 经典控制与数据驱动分析 | [控制与数据驱动参考](skills/px4-flightdeck/references/control-and-data-driven-sources.md) |
 
 技术资料以 PX4 **v1.17.0** 固定 commit 为参考，记录 `px4_msgs` 快照和来源文件哈希。
 这是核对源码的参考环境，不代表已验证整个软件栈兼容。技术指南以英文为主，并附中文
@@ -123,7 +124,7 @@ python3 skills/px4-flightdeck/scripts/inspect_workspace.py \
 
 ## 当前状态与边界
 
-`0.2.0` 补充了有源码依据的技术指南、示例与可复现发布工具。工作流程来自真实 PX4、ROS 2 和 Gazebo 学习开发
+`0.3.0` 增加了基于公开来源的经典控制与数据驱动分析指南，并保留已有的源码依据技术指南、示例与可复现发布工具。工作流程来自真实 PX4、ROS 2 和 Gazebo 学习开发
 记录中反复出现的问题。某个用户的版本、机型、发送频率和参数修改预算不会被当作
 所有项目的统一规则。
 
